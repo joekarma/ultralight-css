@@ -1,4 +1,4 @@
-Ultralight CSS is a tissue paper thin S-expression syntax for
+Ultralight CSS is a tissue paper thin s-expression based syntax for
 cascading style sheets. The entire "project" is two short functions,
 and as such it's not really worth documenting. Here's an example instead:
 
