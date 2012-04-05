@@ -16,19 +16,19 @@ and as such it's not really worth documenting. Here's an example instead:
 That should return the following:
 
     body {
-      background-color: "black";
-      color: "white";
+      background-color: black;
+      color: white;
     }
     
     h1 {
-      font-size: "14px";
-      font-family: "verdana";
-      text-decoration: "none";
-      text-transform: "small-caps";
+      font-size: 14px;
+      font-family: verdana;
+      text-decoration: none;
+      text-transform: small-caps;
     }
     
     div#foo {
-      border: "solid red 4px";
+      border: solid red 4px;
       border-radius: 15;
       -moz-border-radius: 15;
     }

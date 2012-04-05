@@ -5,7 +5,7 @@
 ;;; "ultralight-css" goes here. Hacks and glory await!
 
 (defun css-rule (rule)
-  (format nil "~{~a {~%~@{  ~a: ~w;~^~%~}~%}~}"
+  (format nil "~{~a {~%~@{  ~a: ~a;~^~%~}~%}~}"
 	  (mapcar (lambda (item)
 		    (typecase item
 		      (keyword (string-downcase item))
